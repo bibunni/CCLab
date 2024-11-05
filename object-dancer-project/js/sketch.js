@@ -84,7 +84,7 @@ class BibiDancer {
     pop();
 
     //make head move
-    rotate(cos(frameCount * 0.07) * 0.5);
+    rotate(cos(frameCount * 0.07) * 0.1);
     //gem
     push();
     stroke(0);
