@@ -1,0 +1,107 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+/* tags */
+/* class */
+/* ID */
+
+.box {
+  background-color: rgb(255, 217, 212, 0.8);
+
+  width: 100px;
+  height: 50px;
+
+  margin: 30px 10px 20px 50px;
+  /* 2 arguments topbottom leftright */
+  /* 4 arguments top right down left */
+
+  padding: 30px 50px;
+
+  border: 3px dashed black;
+
+  position: fixed;
+  right: 20px;
+  top: 50px;
+
+  z-index: 1;
+}
+
+.hi {
+  background-color: rgb(194, 224, 255);
+  width: 20px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+}
+
+.wrapper {
+  /* background-color: rgb(194, 224, 255); */
+
+  text-align: center;
+  margin: 20px;
+  width: 600px;
+  height: 300px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* display: none; */
+  /* visibility: hidden; */
+}
+
+/* 
+.wrapper:hover {
+  visibility: hidden;
+} */
+
+h1 {
+  background-color: rgb(194, 224, 255);
+  margin-bottom: 10px;
+}
+
+.subhead {
+  font-family: sans-serif;
+}
+
+.main-body {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 10px;
+
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -75%);
+}
+
+span {
+  background-color: rgb(255, 217, 212);
+  font-weight: bold;
+}
+
+.font-code {
+  font-family: monospace;
+}
+
+#purple {
+  color: purple;
+}
