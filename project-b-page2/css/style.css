@@ -1,0 +1,154 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(212, 231, 250);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.wrapper {}
+
+.main-title {
+  /* background-color: rgb(194, 224, 255); */
+  width: 700px;
+  height: 100px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+
+  font-family: "Meddon", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.sub-title {
+  display: flex;
+  justify-content: center;
+
+  font-family: "Rosarivo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.pola-container {
+  /* background-color: rgb(234, 241, 255); */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#p5-canvas-container1 {
+  /* background-color: rgb(0, 0, 0); */
+  width: 840px;
+  height: 650px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(74, 75, 77);
+}
+
+.starwrapper {
+  background-color: rgb(162, 162, 162);
+  width: 100px;
+  height: 100px;
+}
+
+.star {
+  /* background-color: antiquewhite; */
+  border: 1px grey;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#star1 {
+  display: flex;
+  position: absolute;
+  left: 260px;
+  bottom: 570px;
+}
+
+#star2 {
+  display: flex;
+  position: absolute;
+  left: 100px;
+  bottom: 390px;
+}
+
+#star3 {
+  display: flex;
+  position: absolute;
+  right: 200px;
+  bottom: 480px;
+}
+
+#star4 {
+  display: flex;
+  position: absolute;
+  right: 60px;
+  bottom: 610px;
+}
+
+#star5 {
+  display: flex;
+  position: absolute;
+  right: 100px;
+  bottom: 300px;
+}
+
+#star6 {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  bottom: 580px;
+}
+
+.footer-box {
+  /* background-color: antiquewhite; */
+  width: auto;
+  height: 60px;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-items: center;
+
+  font-family: "Rosarivo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.footer {
+  justify-content: center;
+  height: 20px;
+  margin: 10px;
+}
