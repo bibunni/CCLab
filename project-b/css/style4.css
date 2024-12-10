@@ -91,43 +91,61 @@ canvas {
 #star1 {
   display: flex;
   position: absolute;
-  left: 260px;
-  bottom: 570px;
+  /* left: 260px;
+  bottom: 570px; */
+  left: 17%;
+  top: 10%;
+  transform: translate(-17%, -10%);
 }
 
 #star2 {
   display: flex;
   position: absolute;
-  left: 100px;
-  bottom: 390px;
+  /* left: 100px;
+  bottom: 390px; */
+  left: 6%;
+  top: 39%;
+  transform: translate(-6%, -39%);
 }
 
 #star3 {
   display: flex;
   position: absolute;
-  right: 200px;
-  bottom: 480px;
+  /* right: 200px;
+  bottom: 480px; */
+  right: 13%;
+  top: 27%;
+  transform: translate(-13%, -27%);
 }
 
 #star4 {
   display: flex;
   position: absolute;
-  right: 60px;
-  bottom: 610px;
+  /* right: 60px;
+  bottom: 610px; */
+  right: 2%;
+  top: 10%;
+  transform: translate(-2%, -10%);
 }
 
 #star5 {
   display: flex;
   position: absolute;
-  right: 100px;
-  bottom: 300px;
+  /* right: 100px;
+  bottom: 300px; */
+  right: 3%;
+  top: 45%;
+  transform: translate(-3%, -45%);
 }
 
 #star6 {
   display: flex;
   position: absolute;
-  left: 30px;
-  bottom: 580px;
+  /* left: 30px;
+  bottom: 580px; */
+  left: 2%;
+  top: 5%;
+  transform: translate(-2%, -5%);
 }
 
 .footer-box {
